@@ -127,7 +127,7 @@ call s:hi('LineNr', [101, 101], [s:dark_bg + 1, s:light_bg - 2])
 call s:hi('Visual', ['', ''], [23, 152])
 call s:hi('VisualNOS', ['', ''], [23, 152])
 
-call s:hi('Comment', [65, 65], ['', ''])
+call s:hi('Comment', [240, 248], ['', ''])
 call s:hi('Number', [222, 95], ['', ''])
 call s:hi('Float', [222, 95], ['', ''])
 call s:hi('Boolean', [103, 168], ['', ''])
@@ -213,7 +213,7 @@ call s:hi('MatchParen', ['', ''], [s:dark_bg + 3, s:light_bg - 3])
 call s:hi('ModeMsg', [173, 173], ['', ''])
 
 " let &showbreak = '> '
-call s:hi('NonText', [101, 101], ['', ''])
+call s:hi('NonText', [59, 145], ['', ''])
 
 call s:hi('MoreMsg', [173, 173], ['', ''])
 
